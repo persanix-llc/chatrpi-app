@@ -76,6 +76,13 @@ OPENAI_KEY=<your_openai_key>
 npx @persanix-llc/chatrpi-server@latest
 ```
 
+## Pull requests
+
+Persanix is **not** currently approving community pull requests for this repository.
+Please consider opening an issue for any bugs or feature requests.
+
+All pull requests will be closed without review.
+
 ## License
 
 Licensed under the Apache License, Version 2.0.
