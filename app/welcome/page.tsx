@@ -30,7 +30,7 @@ export default function Welcome() {
 
     useEffect(() => {
         if (welcomeCompleted) {
-            router.replace(Path.Welcome);
+            router.replace(Path.Chatrpi);
         }
     }, [ router, welcomeCompleted ]);
 

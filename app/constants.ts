@@ -32,4 +32,4 @@ export const BACKGROUND_SAMPLE_BATCH_SIZE = 10;
 
 export const API_ROOT = process.env.NEXT_PUBLIC_API_ROOT;
 
-export const VERSION = "0.1.0";
+export const VERSION = "0.1.2";
