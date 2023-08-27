@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2020 - 2023 Persanix LLC. All rights reserved. -->
+<svg version="1.1"
+     id="Layer_1"
+     xmlns="http://www.w3.org/2000/svg"
+     x="0px"
+     y="0px"
+     viewBox="0 0 10 10"
+     xml:space="preserve">
+	<path d="M10,4.95V5c0,2.76-2.24,5-5,5S0,7.76,0,5c0-2.85,2.44-5.14,5.27-4.99l0,0c0.84,0.04,1.66,0.3,2.37,0.75"/>
+    <path d="M9.09,3.43c-0.39,0-0.7-0.32-0.7-0.7s0.32-0.7,0.7-0.7s0.7,0.32,0.7,0.7S9.48,3.43,9.09,3.43z"/>
+</svg>

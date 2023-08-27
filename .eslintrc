@@ -1,0 +1,74 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "import"
+    ],
+    "extends": [
+        "next/core-web-vitals"
+    ],
+    "rules": {
+        "array-bracket-spacing": [
+            "warn",
+            "always"
+        ],
+        "default-case": [
+            "warn"
+        ],
+        "indent": [
+            "warn",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "import/order": [
+            "warn",
+            {
+                "alphabetize": {
+                    "order": "asc",
+                    "caseInsensitive": true
+                },
+                "newlines-between": "always",
+                "groups": [
+                    "builtin",
+                    "external",
+                    "internal",
+                    "index",
+                    "sibling",
+                    "parent",
+                    "object",
+                    "type"
+                ]
+            }
+        ],
+        "no-trailing-spaces": [
+            "warn"
+        ],
+        "no-unused-vars": [
+            "off"
+        ],
+        "object-curly-spacing": [
+            "warn",
+            "always"
+        ],
+        "prefer-const": [
+            "warn"
+        ],
+        "quotes": [
+            "warn",
+            "double",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
+        ],
+        "template-curly-spacing": [
+            "warn",
+            "always"
+        ],
+        "semi": [
+            "warn"
+        ]
+    }
+}

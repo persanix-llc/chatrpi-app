@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .fill-mode-forwards {
+        animation-fill-mode: forwards;
+    }
+
+    .scrollbar::-webkit-scrollbar {
+        @apply w-2.5;
+    }
+
+    .scrollbar::-webkit-scrollbar-track {
+        @apply bg-teal-950;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+        @apply border-8 border-teal-500 border-solid rounded-full;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+        @apply border-8 border-teal-400 border-solid rounded-full;
+    }
+}
