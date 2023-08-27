@@ -13,6 +13,13 @@ and [Endrpi](https://endrpi.io/).
 * Conversational GPIO output control with contextual memory.
 * Extensible to other boards that accept HTTP requests.
 
+## Repositories
+
+1. [chatrpi-server](https://github.com/persanix-llc/chatrpi-server) - Serves the front-end and handles API requests.
+2. (this repository) [chatrpi-app](https://github.com/persanix-llc/chatrpi-app) - Front-end with visualizer and voice
+   recognition/synthesis.
+
+
 ## Requirements
 
 ≥ Node.js 16.0
@@ -66,7 +73,7 @@ OPENAI_KEY=<your_openai_key>
 ###### Install and run Chatrpi:
 
 ```bash
-npx @persanix-llc/chatrpi
+npx @persanix-llc/chatrpi-server@latest
 ```
 
 ## License
