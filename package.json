@@ -2,6 +2,20 @@
     "name": "chatrpi-app",
     "version": "0.1.0",
     "private": true,
+    "description": "Chat for Raspberry Pi (Chatrpi) is a voice assistant for the Raspberry Pi that can hold simple conversations and control GPIO output.",
+    "homepage": "https://github.com/persanix-llc/chatrpi-app",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/persanix-llc/chatrpi-app.git"
+    },
+    "license": "Apache-2.0",
+    "author": "Persanix LLC",
+    "bugs": {
+        "url": "https://github.com/persanix-llc/chatrpi-app/issues"
+    },
+    "contributors": [
+        "John Persano (https://github.com/jmp-12)"
+    ],
     "scripts": {
         "dev": "next dev",
         "build": "next build",
