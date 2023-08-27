@@ -1,5 +1,3 @@
-"use client";
-
 /**
  * Copyright (c) 2020 - 2023 Persanix LLC. All rights reserved.
  *
@@ -15,6 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+"use client";
 
 import clsx from "clsx";
 import { useEffect, useState } from "react";
