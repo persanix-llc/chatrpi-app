@@ -6,6 +6,8 @@ that can hold simple conversations and control GPIO output.
 Powered by [Tensorflow.js](https://www.tensorflow.org/js), [ChatGPT](https://openai.com/chatgpt),
 and [Endrpi](https://endrpi.io/).
 
+[![Chatrpi overview](https://img.youtube.com/vi/xTLt72d4CB0/0.jpg)](https://www.youtube.com/watch?v=xTLt72d4CB0)
+
 ## Features
 
 * Continuous listening via wake-word detection with configurable name.
